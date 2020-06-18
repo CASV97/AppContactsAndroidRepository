@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.NewContactFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="NUEVO CONTACTO"
+        android:visibility="visible"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <!--
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="id"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:padding="5dp"
+        />-->
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/edit_text_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="Nombre"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+    <EditText
+        android:id="@+id/edit_text_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:hint="Teléfono"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edit_text_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:hint="Dirección"
+        android:inputType="textImeMultiLine"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/edit_text_especialidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:hint="Especialidad"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btn_agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:text=" Registrar "
+        android:textColor="@android:color/white" />
+
+
+
+</FrameLayout>
